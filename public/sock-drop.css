@@ -7,13 +7,13 @@ main {
 #homerchu {
     position: absolute;
     z-index: 100;
-    display: none;
+    display: block;
     top: 20px;
     width: 100%;
     height: 100%;
     opacity: 0;
     animation-name: rotate;
-    animation-duration: 2s linear infinite;
+    animation-duration: 2s;
 }
 
 #homerchu.active {

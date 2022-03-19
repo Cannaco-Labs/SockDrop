@@ -60,20 +60,6 @@ $(function () {
             leaf_down(leaf3);
         }
 
-
-        if (score < 10) {
-            $("#homerchu").removeClass('active');
-        } else {
-            $("#homerchu").addClass('active');
-        }
-
-        if (score < 12) {
-            $("#homerchu").addClass('active');
-        } else {
-            $("#homerchu").removeClass('active');
-        }
-
-
         
         if (high < 1) {
             $("#scoreboard-mild").removeClass('active');
