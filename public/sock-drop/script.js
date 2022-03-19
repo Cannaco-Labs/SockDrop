@@ -65,7 +65,11 @@ $(function () {
             $("#homerchu").removeClass('active');
         } else {
             $("#homerchu").addClass('active');
+            setTimeout(function(){
+                $('#homerchu').removeClass("active");
+            }, 5000);
         }
+
 
         
         if (high < 1) {
