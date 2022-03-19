@@ -255,6 +255,36 @@ main {
 
 
 
+
+#canny-default {
+    display: block;
+}
+
+#canny-mild {
+    display: none;
+}
+
+#canny-mild.active {
+    display: block;
+}
+
+#canny-medium {
+    display: none;
+}
+
+#canny-medium.active {
+    display: block;
+}
+
+#canny-high {
+    display: none;
+}
+
+#canny-high.active {
+    display: block;
+}
+
+
 #basket {
     /* margin-left: -20px; */
     position: absolute;
@@ -309,33 +339,7 @@ main {
     position: absolute;
 }
 
-#basket-default {
-    display: block;
-}
 
-#basket-mild {
-    display: none;
-}
-
-#basket-mild.active {
-    display: block;
-}
-
-#basket-medium {
-    display: none;
-}
-
-#basket-medium.active {
-    display: block;
-}
-
-#basket-high {
-    display: none;
-}
-
-#basket-high.active {
-    display: block;
-}
 
 
 
