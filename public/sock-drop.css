@@ -281,31 +281,35 @@ main {
 }
 
 
-#basket-default {
+#canny-default {
     display: block;
 }
 
-#basket-mild {
-    display: none;
-}
-
-#basket-mild.active {
+#canny-default.active {
     display: block;
 }
 
-#basket-medium {
+#canny-mild {
     display: none;
 }
 
-#basket-medium.active {
+#canny-mild.active {
     display: block;
 }
 
-#basket-high {
+#canny-medium {
     display: none;
 }
 
-#basket-high.active {
+#canny-medium.active {
+    display: block;
+}
+
+#canny-high {
+    display: none;
+}
+
+#canny-high.active {
     display: block;
 }
 
