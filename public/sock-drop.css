@@ -39,9 +39,14 @@ main {
     }
 }
 
+.rotate {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+}
 
-
-
+  
 
 
 #score_holder {
@@ -317,13 +322,15 @@ main {
 #basket #basket_holder img {
     /* height: 160px; */
     /* width: 210px; */
-    display: inline-block!important;
+    /* display: inline-block!important; */
     width: 100%;
     position: absolute;
     /* max-height: 1%; */
     /* height: 1%;
     width: 2%; */
 }
+
+
 
 
 #canny-default {
