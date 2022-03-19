@@ -1,0 +1,32 @@
+    @font-face{
+        font-family:"Marselis W01 Regular";
+        src:url("Fonts/5641322/e7168e46-6e2e-4749-bad9-bc9e5794875c.woff2") format("woff2"),url("Fonts/5641322/fc3e5790-c30a-4a5f-9834-fbb47aaa3cff.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Marselis W01 Bold Italic";
+        src:url("Fonts/5641323/89d67a14-b722-4f99-9b42-d1538f601ade.woff2") format("woff2"),url("Fonts/5641323/a210eb47-7d16-4d7c-9e16-8ea71fea69be.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Marselis W01 Italic";
+        src:url("Fonts/5641324/395ab1d9-614f-49a6-a108-cfd638cc433d.woff2") format("woff2"),url("Fonts/5641324/8ab710a4-416b-448c-921c-1d755daefcc9.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Marselis W01 Bold";
+        src:url("Fonts/5641332/6265aafa-15a2-4f82-b377-b3e197fe165f.woff2") format("woff2"),url("Fonts/5641332/9c58aab0-79bf-4b2f-b8d0-ec2a33b40953.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Marselis W01 Black Italic";
+        src:url("Fonts/5641340/0a02a7b1-4f3c-4c5f-b261-040d1d07fc76.woff2") format("woff2"),url("Fonts/5641340/71bf988f-83fd-411e-a1ed-36b8144744fc.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Marselis W01 Black";
+        src:url("Fonts/5641343/274f2c95-7251-44de-afae-6a18ff1389df.woff2") format("woff2"),url("Fonts/5641343/72f13d36-64c2-4b19-bee2-503810bb543d.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Marselis W01 Light";
+        src:url("Fonts/5641346/7684ffe7-ff88-49fd-bad8-302821b3d1e7.woff2") format("woff2"),url("Fonts/5641346/abbf0c37-58c1-4819-9945-f3f016cc7834.woff") format("woff");
+    }
+    @font-face{
+        font-family:"Marselis W01 Light Italic";
+        src:url("Fonts/5641350/15870124-7cf5-4f4e-922d-01788962a967.woff2") format("woff2"),url("Fonts/5641350/b8f8e504-47fa-40e7-889a-b774837ce6f1.woff") format("woff");
+    }

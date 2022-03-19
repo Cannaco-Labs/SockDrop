@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'MarselisOT';
+    src: url('MarselisOT-Black.woff2') format('woff2'),
+        url('MarselisOT-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarselisOT';
+    src: url('MarselisOT-Bold.woff2') format('woff2'),
+        url('MarselisOT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarselisOT';
+    src: url('MarselisOT-LightItalic.woff2') format('woff2'),
+        url('MarselisOT-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarselisOT';
+    src: url('MarselisOT-Italic.woff2') format('woff2'),
+        url('MarselisOT-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarselisOT';
+    src: url('MarselisOT-Light.woff2') format('woff2'),
+        url('MarselisOT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarselisOT';
+    src: url('MarselisOT-BlackItalic.woff2') format('woff2'),
+        url('MarselisOT-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'MarselisOT';
+    src: url('MarselisOT.woff2') format('woff2'),
+        url('MarselisOT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MarselisOT';
+    src: url('MarselisOT-BoldItalic.woff2') format('woff2'),
+        url('MarselisOT-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
