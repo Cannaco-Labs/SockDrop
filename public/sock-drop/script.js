@@ -68,6 +68,8 @@ $(function () {
         }
 
         if (score < 12) {
+            $("#homerchu").addClass('active');
+        } else {
             $("#homerchu").removeClass('active');
         }
 
