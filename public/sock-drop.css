@@ -301,15 +301,10 @@ main {
 
 
 #basket {
-    /* margin-left: -20px; */
     position: absolute;
     bottom: 24px;
-    /* background: url('https://www.cannaco.us/assets/sock-drop/canny-hyped.png'); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* text-align: center; */
     z-index: 11;
-    /* margin-left: -110px; */
+    bottom: 0px;
     margin-left: -80px;
     max-width: 8.5%;
     display: inline-block!important;
