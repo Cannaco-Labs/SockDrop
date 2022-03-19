@@ -317,6 +317,8 @@ main {
 
 #basket_holder {
     position: relative;
+    height: 160px;
+    width: 160px;
 }
 
 #basket #basket_holder img {
