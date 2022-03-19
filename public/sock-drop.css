@@ -11,16 +11,32 @@ main {
     top: 20px;
     width: 100%;
     height: 100%;
-
+    opacity: 0;
+    animation-name: rotate;
+    animation-duration: 2s linear infinite;
 }
 
 #homerchu.active {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 100;
 }
 
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 #homerchu img {
+    max-width: 0%;
+}
+
+#homerchu.active img {
     max-width: 24%;
 }
 

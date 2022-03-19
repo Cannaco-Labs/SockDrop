@@ -67,9 +67,11 @@ $(function () {
             $("#homerchu").addClass('active');
         }
 
-        setTimeout(function(){
-            $('#homerchu').removeClass("active");
-        }, 5000);
+        if (score < 11) {
+            $("#homerchu").removeClass('active');
+        } else {
+            $("#homerchu").removeClass('active');
+        }
 
 
         
