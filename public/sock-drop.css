@@ -255,6 +255,32 @@ main {
 
 
 
+#canny_holder {
+    padding: 0px;
+    display: block;
+    width: 100%;
+    height: 40%;
+    top: 40px;
+    position: absolute;
+    overflow: hidden;
+}
+
+#canny_body {
+    z-index: 100;
+    position: relative;
+    /* max-width: 32%; */
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#canny_body img {
+    /* display: block; */
+    position: absolute;
+}
 
 #canny-default {
     display: block;
@@ -283,6 +309,7 @@ main {
 #canny-high.active {
     display: block;
 }
+
 
 
 #basket {
