@@ -300,33 +300,33 @@ main {
     position: absolute;
     bottom: 24px;
     z-index: 11;
-    bottom: 0px;
+    bottom: 24px;
     margin-left: -80px;
     max-width: 8.5%;
     display: inline-block!important;
 }
 
-/* #basket img {
+#basket img {
     display: inline-block!important;
     width: 100%;
-} */
+}
 
-#basket_holder {
+/* #basket_holder {
     position: relative;
     min-height: 180px;
     min-width: 200px;
-}
+} */
 
-#basket #basket_holder img {
-    /* height: 160px; */
-    /* width: 210px; */
-    /* display: inline-block!important; */
+/* #basket #basket_holder img {
+    height: 160px;
+    width: 210px;
+    display: inline-block!important;
     width: 100%;
     position: absolute;
-    /* max-height: 1%; */
-    /* height: 1%;
-    width: 2%; */
-}
+    max-height: 1%;
+    height: 1%;
+    width: 2%;
+} */
 
 
 
