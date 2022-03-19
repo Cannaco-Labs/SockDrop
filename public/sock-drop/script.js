@@ -61,28 +61,28 @@ $(function () {
         }
 
 
+        if (score < 10) {
+            $("#homerchu").removeClass('active');
+        } else {
+            $("#homerchu").addClass('active');
+        }
+
         
         if (high < 1) {
-            $("#canny-mild").removeClass('active');
             $("#scoreboard-mild").removeClass('active');
         } else {
-            $("#canny-mild").addClass('active');
             $("#scoreboard-mild").addClass('active');
         }
 
         if (high < 2) {
-            $("#canny-medium").removeClass('active');
             $("#scoreboard-medium").removeClass('active');
         } else {
-            $("#canny-medium").addClass('active');
             $("#scoreboard-medium").addClass('active');
         }
 
         if (high < 3) {
-            $("#canny-high").removeClass('active');
             $("#scoreboard-high").removeClass('active');
         } else {
-            $("#canny-high").addClass('active');
             $("#scoreboard-high").addClass('active');
         }
 
