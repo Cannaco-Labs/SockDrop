@@ -7,14 +7,17 @@ main {
 #homerchu {
     position: absolute;
     z-index: 100;
-    display: block;
+    display: none;
     top: 20px;
     width: 100px;
     height: 100px;
 }
 
-#homerchu img {
+#homerchu.active {
     display: block;
+}
+
+#homerchu img {
 }
 
 #score_holder {
