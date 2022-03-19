@@ -11,7 +11,6 @@ main {
 #homerchu {
     overflow: hidden;
     position: absolute;
-    z-index: 100;
     display: block;
     top: 20px;
     width: 100%;
@@ -19,6 +18,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: ;
 }
 
 #homerchu.active {
@@ -27,7 +27,7 @@ main {
 
 #homerchu img {
     max-width: 16%;
-    animation-delay: 2s;
+    animation-delay: 20s;
     -webkit-animation: rotate 5s linear infinite;
     -moz-animation: rotate 5s linear infinite;
     -ms-animation: rotate 5s linear infinite;
