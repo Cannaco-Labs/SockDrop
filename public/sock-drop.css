@@ -4,6 +4,19 @@ main {
     background-color: #FED202;
 }
 
+#homerchu {
+    position: absolute;
+    z-index: 100;
+    display: block;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+#homerchu img {
+    display: block;
+}
+
 #score_holder {
     padding: 0px;
     display: block;
