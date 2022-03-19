@@ -7,6 +7,7 @@ main {
 
 
 
+
 #homerchu {
     position: absolute;
     z-index: 100;
@@ -23,7 +24,7 @@ main {
     opacity: 100;
 }
 
-#homerchu.active img {
+#homerchu img {
     max-width: 24%;
     animation-name: rotate;
     animation-duration: 2s;
