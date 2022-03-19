@@ -266,16 +266,7 @@ main {
 }
 
 #canny_body {
-    z-index: 100;
-    position: relative;
-    /* max-width: 32%; */
-    max-width: 800px;
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-    height: 100%;
     display: inline-block!important;
-    text-align: center;
 }
 
 #canny_body img {
@@ -332,6 +323,7 @@ main {
 #basket img {
     display: inline-block!important;
     width: 100%;
+    left: 0%;
 }
 
 
