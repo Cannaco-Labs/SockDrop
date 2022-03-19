@@ -315,10 +315,15 @@ main {
     display: inline-block!important;
 }
 
+/* #basket img {
+    display: inline-block!important;
+    width: 100%;
+} */
+
 #basket_holder {
     position: relative;
-    height: 160px;
-    width: 160px;
+    min-height: 160px;
+    min-width: 160px;
 }
 
 #basket #basket_holder img {
