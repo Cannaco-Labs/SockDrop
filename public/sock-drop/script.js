@@ -67,9 +67,7 @@ $(function () {
             $("#homerchu").addClass('active');
         }
 
-        if (score < 11) {
-            $("#homerchu").removeClass('active');
-        } else {
+        if (score < 12) {
             $("#homerchu").removeClass('active');
         }
 
