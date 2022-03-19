@@ -310,11 +310,16 @@ main {
     display: inline-block!important;
 }
 
-#basket img {
+#basket_holder {
+    position: relative;
+}
+
+#basket #basket_holder img {
     /* height: 160px; */
     /* width: 210px; */
     display: inline-block!important;
     width: 100%;
+    position: absolute;
     /* max-height: 1%; */
     /* height: 1%;
     width: 2%; */
