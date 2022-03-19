@@ -34,14 +34,20 @@ main {
 
 @keyframes rotate {
     0% {
-        transform: translate(+100%, 0) rotate(0);
+        transform: translate(+400%, 0) rotate(0);
     }
     50% {
-        transform: translate(0%, 0) rotate(180);
+        transform: translate(0%, 0) rotate(360deg);
     }
     100% {
-        transform: translate(-100%, 0) rotate(360);
+        transform: translate(-100%, 0) rotate(0);
     }
+    /* 0% {
+    transform: rotate(0) translate(+100%, 0);
+    }
+    100% {
+    transform: rotate(360deg) translate(-100%, 0);
+    } */
 }
   
 
