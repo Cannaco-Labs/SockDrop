@@ -280,34 +280,6 @@ main {
     width: 2%; */
 }
 
-#basket.hide {
-    display: none!important;
-}
-
-#basket_holder {
-    padding: 0px;
-    display: block;
-    width: 100%;
-    height: 10%;
-    bottom: 40px;
-    position: absolute;
-}
-
-#basket_image {
-    z-index: 100;
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: inline-block!important;
-    width: 100%;
-}
-
-#basket_image img {
-    /* display: block; */
-    position: absolute;
-}
 
 #basket-default {
     display: block;
