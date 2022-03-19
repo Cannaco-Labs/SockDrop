@@ -64,26 +64,20 @@ $(function () {
         
         if (high < 1) {
             $("#scoreboard-mild").removeClass('active');
-            $("#canny-mild").removeClass('active');
         } else {
             $("#scoreboard-mild").addClass('active');
-            $("#canny-mild").addClass('active');
         }
 
         if (high < 2) {
             $("#scoreboard-medium").removeClass('active');
-            $("#canny-medium").removeClass('active');
         } else {
             $("#scoreboard-medium").addClass('active');
-            $("#canny-medium").addClass('active');
         }
 
         if (high < 3) {
             $("#scoreboard-high").removeClass('active');
-            $("#canny-high").removeClass('active');
         } else {
             $("#scoreboard-high").addClass('active');
-            $("#canny-high").addClass('active');
         }
 
         if (high < 4) {
