@@ -47,6 +47,36 @@ main {
     transform: rotate(360deg) translate(-100%, 0);
     } */
 }
+
+
+#rick {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homerchu img {
+    max-width: 16%;
+    -webkit-animation: rotaterick 5s linear 50s infinite;
+    -moz-animation: rotaterick 5s linear 50s infinite;
+    -ms-animation: rotaterick 5s linear 50s infinite;
+    -o-animation: rotaterick 5s linear 50s infinite;
+}
+
+@keyframes rotaterick {
+    0% {
+        transform: translate(-400%, 0) rotate(0);
+    }
+    100% {
+        transform: translate(+400%, 0) rotate(360deg);
+    }
+}
   
 
 
