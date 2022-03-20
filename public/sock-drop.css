@@ -35,7 +35,7 @@ main {
 
 @keyframes rotate {
     0% {
-        transform: translate(+800%, 0) rotate(-180);
+        transform: translate(+800%, 0) rotate(-180deg);
     }
     100% {
         transform: translate(-900%, 0) rotate(360deg);
@@ -76,7 +76,7 @@ main {
 
 @keyframes rotate2 {
     0% {
-        transform: translate(+800%, 0) rotate(-180);
+        transform: translate(+800%, 0) rotate(-180deg);
     }
     100% {
         transform: translate(-900%, 0) rotate(360deg);
@@ -117,7 +117,48 @@ main {
 
 @keyframes rotate3 {
     0% {
-        transform: translate(+800%, 0) rotate(-180);
+        transform: translate(+800%, 0) rotate(-180deg);
+    }
+    100% {
+        transform: translate(-900%, 0) rotate(360deg);
+    }
+    /* 0% {
+    transform: rotate(0) translate(+100%, 0);
+    }
+    100% {
+    transform: rotate(360deg) translate(-100%, 0);
+    } */
+}
+
+
+#homerchu4 {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#homerchu4 img {
+    max-width: 16%;
+    margin-right: -150%;
+    /* -webkit-animation: rotate 7s linear 25s infinite;
+    -moz-animation: rotate 6s linear 25s infinite;
+    -ms-animation: rotate 6s linear 25s infinite;
+    -o-animation: rotate 6s linear 25s infinite; */
+    -webkit-animation: rotate4 7s linear 140s;
+    -moz-animation: rotate4 7s linear 140s;
+    -ms-animation: rotate4 7s linear 140s;
+    -o-animation: rotate4 7s linear 140s;
+}
+
+@keyframes rotate4 {
+    0% {
+        transform: translate(+800%, 0) rotate(-180deg);
     }
     100% {
         transform: translate(-900%, 0) rotate(360deg);
@@ -154,7 +195,7 @@ main {
 
 @keyframes rotaterick {
     0% {
-        transform: translate(-800%, 0) rotate(180);
+        transform: translate(-800%, 0) rotate(180deg);
     }
     100% {
         transform: translate(+900%, 0) rotate(-360deg);
@@ -185,7 +226,7 @@ main {
 
 @keyframes rotaterick2 {
     0% {
-        transform: translate(-800%, 0) rotate(180);
+        transform: translate(-800%, 0) rotate(180deg);
     }
     100% {
         transform: translate(+900%, 0) rotate(-360deg);
@@ -216,7 +257,38 @@ main {
 
 @keyframes rotaterick3 {
     0% {
-        transform: translate(-800%, 0) rotate(180);
+        transform: translate(-800%, 0) rotate(180deg);
+    }
+    100% {
+        transform: translate(+900%, 0) rotate(-360deg);
+    }
+}
+  
+
+#rick4 {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rick4 img {
+    max-width: 16%;
+    margin-left: -150%;
+    -webkit-animation: rotaterick4 7s linear 160s;
+    -moz-animation: rotaterick4 7s linear 160s;
+    -ms-animation: rotaterick4 7s linear 160s;
+    -o-animation: rotaterick4 7s linear 160s;
+}
+
+@keyframes rotaterick4 {
+    0% {
+        transform: translate(-800%, 0) rotate(180deg);
     }
     100% {
         transform: translate(+900%, 0) rotate(-360deg);
@@ -763,6 +835,30 @@ form {
     }
 
     #rick img {
+        max-width: 32%;
+    }
+
+    #homerchu2 img {
+        max-width: 32%;
+    }
+
+    #rick2 img {
+        max-width: 32%;
+    }
+
+    #homerchu3 img {
+        max-width: 32%;
+    }
+
+    #rick3 img {
+        max-width: 32%;
+    }
+
+    #homerchu4 img {
+        max-width: 32%;
+    }
+
+    #rick4 img {
         max-width: 32%;
     }
 
