@@ -619,6 +619,14 @@ form {
 
 @media (max-width: 980px) {
 
+    #homerchu img {
+        max-width: 32%;
+    }
+
+    #rick img {
+        max-width: 32%;
+    }
+
     #spaceship {
         max-width: 40%;
         max-width: 480px;
