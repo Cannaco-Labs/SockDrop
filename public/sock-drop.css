@@ -27,10 +27,14 @@ main {
 
 #homerchu img {
     max-width: 16%;
-    -webkit-animation: rotate 5s linear 25s infinite;
+    /* -webkit-animation: rotate 5s linear 25s infinite;
     -moz-animation: rotate 5s linear 25s infinite;
     -ms-animation: rotate 5s linear 25s infinite;
-    -o-animation: rotate 5s linear 25s infinite;
+    -o-animation: rotate 5s linear 25s infinite; */
+    -webkit-animation: rotate 5s linear 25s;
+    -moz-animation: rotate 5s linear 25s;
+    -ms-animation: rotate 5s linear 25s;
+    -o-animation: rotate 5s linear 25s;
 }
 
 @keyframes rotate {
@@ -61,12 +65,12 @@ main {
     justify-content: center;
 }
 
-#homerchu img {
+#rick img {
     max-width: 16%;
-    -webkit-animation: rotaterick 5s linear 50s infinite;
-    -moz-animation: rotaterick 5s linear 50s infinite;
-    -ms-animation: rotaterick 5s linear 50s infinite;
-    -o-animation: rotaterick 5s linear 50s infinite;
+    -webkit-animation: rotaterick 5s linear 50s;
+    -moz-animation: rotaterick 5s linear 50s;
+    -ms-animation: rotaterick 5s linear 50s;
+    -o-animation: rotaterick 5s linear 50s;
 }
 
 @keyframes rotaterick {
