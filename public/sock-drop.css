@@ -80,7 +80,7 @@ main {
         transform: translate(-400%, 0) rotate(0);
     }
     100% {
-        transform: translate(+400%, 0) rotate(360deg);
+        transform: translate(+400%, 0) rotate(-360deg);
     }
 }
   
