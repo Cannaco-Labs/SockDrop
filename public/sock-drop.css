@@ -27,11 +27,10 @@ main {
 
 #homerchu img {
     max-width: 16%;
-    animation-delay: 20s;
-    -webkit-animation: rotate 5s linear infinite;
-    -moz-animation: rotate 5s linear infinite;
-    -ms-animation: rotate 5s linear infinite;
-    -o-animation: rotate 5s linear infinite;
+    -webkit-animation: rotate 5s linear 25s infinite;
+    -moz-animation: rotate 5s linear 25s infinite;
+    -ms-animation: rotate 5s linear 25s infinite;
+    -o-animation: rotate 5s linear 25s infinite;
 }
 
 @keyframes rotate {
