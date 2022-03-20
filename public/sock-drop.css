@@ -28,22 +28,22 @@ main {
 #homerchu img {
     max-width: 16%;
     margin-right: -150%;
-    /* -webkit-animation: rotate 6s linear 25s infinite;
+    /* -webkit-animation: rotate 7s linear 25s infinite;
     -moz-animation: rotate 6s linear 25s infinite;
     -ms-animation: rotate 6s linear 25s infinite;
     -o-animation: rotate 6s linear 25s infinite; */
-    -webkit-animation: rotate 6s linear 25s;
-    -moz-animation: rotate 6s linear 25s;
-    -ms-animation: rotate 6s linear 25s;
-    -o-animation: rotate 6s linear 25s;
+    -webkit-animation: rotate 7s linear 25s;
+    -moz-animation: rotate 7s linear 25s;
+    -ms-animation: rotate 7s linear 25s;
+    -o-animation: rotate 7s linear 25s;
 }
 
 @keyframes rotate {
     0% {
-        transform: translate(+600%, 0) rotate(0);
+        transform: translate(+800%, 0) rotate(0);
     }
     100% {
-        transform: translate(-600%, 0) rotate(360deg);
+        transform: translate(-800%, 0) rotate(360deg);
     }
     /* 0% {
     transform: rotate(0) translate(+100%, 0);
@@ -69,18 +69,18 @@ main {
 #rick img {
     max-width: 16%;
     margin-left: -150%;
-    -webkit-animation: rotaterick 6s linear 50s;
-    -moz-animation: rotaterick 6s linear 50s;
-    -ms-animation: rotaterick 6s linear 50s;
-    -o-animation: rotaterick 6s linear 50s;
+    -webkit-animation: rotaterick 7s linear 50s;
+    -moz-animation: rotaterick 7s linear 50s;
+    -ms-animation: rotaterick 7s linear 50s;
+    -o-animation: rotaterick 7s linear 50s;
 }
 
 @keyframes rotaterick {
     0% {
-        transform: translate(-600%, 0) rotate(0);
+        transform: translate(-800%, 0) rotate(0);
     }
     100% {
-        transform: translate(+600%, 0) rotate(-360deg);
+        transform: translate(+800%, 0) rotate(-360deg);
     }
 }
   
