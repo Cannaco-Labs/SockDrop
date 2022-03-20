@@ -40,10 +40,10 @@ main {
 
 @keyframes rotate {
     0% {
-        transform: translate(+800%, 0) rotate(0);
+        transform: translate(+700%, 0) rotate(0);
     }
     100% {
-        transform: translate(-800%, 0) rotate(360deg);
+        transform: translate(-700%, 0) rotate(360deg);
     }
     /* 0% {
     transform: rotate(0) translate(+100%, 0);
@@ -77,10 +77,10 @@ main {
 
 @keyframes rotaterick {
     0% {
-        transform: translate(-800%, 0) rotate(0);
+        transform: translate(-700%, 0) rotate(0);
     }
     100% {
-        transform: translate(+800%, 0) rotate(-360deg);
+        transform: translate(+700%, 0) rotate(-360deg);
     }
 }
   
