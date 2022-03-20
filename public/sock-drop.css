@@ -27,7 +27,7 @@ main {
 
 #homerchu img {
     max-width: 16%;
-    right: -400px;
+    margin-right: -150%;
     /* -webkit-animation: rotate 5s linear 25s infinite;
     -moz-animation: rotate 5s linear 25s infinite;
     -ms-animation: rotate 5s linear 25s infinite;
@@ -68,7 +68,7 @@ main {
 
 #rick img {
     max-width: 16%;
-    left: -400px;
+    margin-left: -150%;
     -webkit-animation: rotaterick 5s linear 50s;
     -moz-animation: rotaterick 5s linear 50s;
     -ms-animation: rotaterick 5s linear 50s;
