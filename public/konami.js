@@ -47,7 +47,7 @@ var allowedKeys = {
       score_span.text(score + 1000);
       // var getPoints = (score_span).text(score);
       // var newScore = getPoints + 1000;
-      // $(score).text(newScore.toFixed(1));
+      // $(score_span).text(newScore.toFixed(1));
       return false;
     });
 
