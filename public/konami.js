@@ -56,7 +56,5 @@ function activateCheats() {
     $('#cannami_image').removeClass("active");
   }, 4000);
   // alert("cheats activated");
-  // document.removeEventListener('keydown');
+  document.removeEventListener('keydown');
 }
-
-document.removeEventListener('keydown');
