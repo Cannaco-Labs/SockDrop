@@ -381,6 +381,10 @@ main {
     font-size: 280%;
 }
 
+#score.shift {
+    left: 5%;
+}
+
 #high {
     position: absolute;
     left: 20%;

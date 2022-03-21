@@ -48,6 +48,7 @@ function activateCheats() {
   audio.play();
 
   $('#cannami_image').addClass("active");  
+  $('#score').addClass("shift");  
   setTimeout(function () {
     $('#cannami_image').removeClass("active");
   }, 4000);
