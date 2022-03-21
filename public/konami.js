@@ -52,6 +52,6 @@ function activateCheats() {
   $('#cannami_image').addClass("active");  
   setTimeout(function () {
     $('#cannami_image').removeClass("active");
-  }, 4000);
+  }, 6000);
   alert("cheats activated");
 }

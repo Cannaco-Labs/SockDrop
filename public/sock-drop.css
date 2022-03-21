@@ -18,27 +18,33 @@ main {
     opacity: 0;
     max-width: 20%; 
     max-height: 20%;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
 }
 
-#cannami_image.active img{
+#cannami_image.active img {
     opacity: 100;
     max-width: 60%; 
     max-height: 60%;
-    -webkit-animation: shake 1s linear infinite;
-    -moz-animation: shake 1s linear infinite;
-    -ms-animation: shake 1s linear infinite;
-    -o-animation: shake 1s linear infinite;
+    min-width: 60%; 
+    min-height: 60%;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -webkit-animation: shake 2s linear infinite;
+    -moz-animation: shake 2s linear infinite;
+    -ms-animation: shake 2s linear infinite;
+    -o-animation: shake 2s linear infinite;
 }
 
 @keyframes shake {
     0% {
-        transform: rotate(-45deg);
+        transform: rotate(-20deg);
     }
     50% {
-        transform: rotate(45deg);
+        transform: rotate(20deg);
     }
     100% {
-        transform: rotate(-45deg);
+        transform: rotate(-20deg);
     }
 }
 
