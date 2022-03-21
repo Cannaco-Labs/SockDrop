@@ -159,13 +159,20 @@ function update_score() {
     if (score % 10 === 0 && speed <= max_speed) {
         speed++;
     } 
-    if (score > 1000) {
+    // if (score > 1000) {
+    //     score++;
+    //     score_span.text(score + 1000);
+    // } else if (score < 1000){
+    //     score++
+    //     score_span.text(score);
+    //     // score_span.text(score + 1000);
+    // }
+    if (score < 1000) {
+        score++;
+        score_span.text(score);
+    } else {
         score++;
         score_span.text(score + 1000);
-    } else if (score < 1000){
-        score++
-        score_span.text(score);
-        // score_span.text(score + 1000);
     }
 }
 
