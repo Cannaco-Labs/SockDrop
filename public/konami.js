@@ -33,7 +33,7 @@ var allowedKeys = {
       if (konamiCodePosition == konamiCode.length) {
         activateCheats();
         score++;
-        score_span.text(score);
+        score_span.text(score + 1000);
         konamiCodePosition = 0;
       }
     } else {
@@ -55,7 +55,7 @@ var allowedKeys = {
 
     });
 
-    // $('#cannami_image').addClass("active");  
+    $('#cannami_image').addClass("active");  
     // setTimeout(function () {
     //   $('#cannami_image').hide();
     // }, 800);
