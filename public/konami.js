@@ -22,8 +22,6 @@ document.addEventListener('keydown', function(e) {
   // get the value of the required key from the konami code
   var requiredKey = konamiCode[konamiCodePosition];
 
-  document.removeEventListener('keydown');
-
   // compare the key with the required key
   if (key == requiredKey) {
 
@@ -42,7 +40,6 @@ document.addEventListener('keydown', function(e) {
 
 
 function activateCheats() {
-  
 
   $(function(event){
     score+=1000;
@@ -59,4 +56,5 @@ function activateCheats() {
     $('#cannami_image').removeClass("active");
   }, 4000);
   // alert("cheats activated");
+  document.removeEventListener('keydown');
 }
