@@ -171,7 +171,8 @@ function update_score() {
         score++;
         score_span.text(score);
     } else {
-        score++;
+        score+=1000;
+        // score=score + 1000;
         score_span.text(score + 1000);
     }
 }
