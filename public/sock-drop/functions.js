@@ -3,6 +3,8 @@ $(document).on('mousemove', function (e) {
 });
 
 
+
+
 // TOUCH
 document.addEventListener("touchstart", touchHandler);
 document.addEventListener("touchmove", touchHandler);
@@ -11,6 +13,8 @@ function touchHandler(e) {
         basket.css('left', e.pageX);
     }
 }
+
+
 
 
 function sock_down(sock) {
@@ -144,6 +148,7 @@ function check_leaf_hits_basket(leaf) {
     }
     return false;
 }
+
 
 
 

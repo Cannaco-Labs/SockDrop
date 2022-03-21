@@ -17,6 +17,7 @@ var basket = $('#basket'),
     pickle_score_span = $('#pickle_score'),
     high_span = $('#high'),
     floor = $('#floor'),
+    konami = $('#konami')
     basket_height = basket.height(),
     container_height = container.height(),
     sock_height = socks.height(),
