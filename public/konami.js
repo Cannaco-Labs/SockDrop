@@ -40,9 +40,7 @@ document.addEventListener('keydown', function(e) {
 
 function activateCheats() {
   
-  $(function(removeHandler) {
-    document.removeEventListener('keydown');
-  });
+  document.removeEventListener('keydown');
 
   $(function(event){
     score+=1000;
