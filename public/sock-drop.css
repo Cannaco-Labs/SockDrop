@@ -11,7 +11,7 @@ main {
 }
 
 #cannami_image.active {
-    display: flex;
+    display: flex!important;
 }
 
 #homerchu {
