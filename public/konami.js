@@ -36,7 +36,6 @@ document.addEventListener('keydown', function(e) {
   } else {
     konamiCodePosition = 0;
   }
-  document.removeEventListener('keydown');
 });
 
 
@@ -57,5 +56,7 @@ function activateCheats() {
     $('#cannami_image').removeClass("active");
   }, 4000);
   // alert("cheats activated");
-  document.removeEventListener('keydown');
+  // document.removeEventListener('keydown');
 }
+
+document.removeEventListener('keydown');
