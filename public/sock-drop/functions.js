@@ -3,8 +3,6 @@ $(document).on('mousemove', function (e) {
 });
 
 
-
-
 // TOUCH
 document.addEventListener("touchstart", touchHandler);
 document.addEventListener("touchmove", touchHandler);
@@ -13,8 +11,6 @@ function touchHandler(e) {
         basket.css('left', e.pageX);
     }
 }
-
-
 
 
 function sock_down(sock) {
@@ -154,7 +150,6 @@ function check_leaf_hits_basket(leaf) {
 
 
 
-
 function increment_high() {
     high++;
     high_span.text(high);
@@ -164,6 +159,11 @@ function update_score() {
     score++;
     if (score % 10 === 0 && speed <= max_speed) {
         speed++;
+    }
+    if (konamiCodePosition == konamiCode.length) {
+        activateCheats();
+        score_span.text(score + 1000);
+        konamiCodePosition = 0;
     }
     score_span.text(score);
 }
