@@ -40,11 +40,17 @@ var allowedKeys = {
   });
   
   function activateCheats() {
-      $(function(event){
-        $("#score").each(function(idx,elem){
-          $(this).text( parseInt($(this).text(),10) +1000 );
-        });
-        return false;
+    $(function(event){
+      // $("#score").each(function(idx,elem){
+      //   $(this).text( parseInt($(this).text(),0) +1000 );
+      // });
+      score++;
+      score_span.text(score) +1000;
+      return false;
     });
-    alert("cheats activated");
+    $('#cannami_image').addClass("active");  
+    setTimeout(function () {
+      $('#cannami_image').hide();
+    }, 800);
+    // alert("cheats activated");
   }

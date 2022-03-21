@@ -6,7 +6,13 @@ main {
 
 
 
+#cannami_image {
+    display: none;
+}
 
+#cannami_image.active {
+    display: flex;
+}
 
 #homerchu {
     overflow: hidden;
