@@ -32,6 +32,8 @@ var allowedKeys = {
       // if the last key is reached, activate cheats
       if (konamiCodePosition == konamiCode.length) {
         activateCheats();
+        score++;
+        score_span.text(score);
         konamiCodePosition = 0;
       }
     } else {
@@ -44,10 +46,13 @@ var allowedKeys = {
       // $("#score").each(function(idx,elem){
       //   $(this).text( parseInt($(this).text(),0) +1000 );
       // });
-      var getPoints = +$('#score').text(score);
-      var newScore = getPoints + 1000;
-      $('#score').text(newScore.toFixed(1));
-      return false;
+    //   var getPoints = +$('#score').text(score);
+    //   var newScore = getPoints + 1000;
+    //   $('#score').text(newScore.toFixed(1));
+    //   return false;
+
+    // .text(score) = score_span + 1000;
+
     });
 
     // $('#cannami_image').addClass("active");  
