@@ -42,7 +42,7 @@ document.addEventListener('keydown', function(e) {
 function activateCheats() {
   $(function(event){
     // score++;
-    // score_span.text(score + 1000);
+    score_span.text(score + 1000);
     // var getPoints = (score_span).text(score);
     // var newScore = getPoints + 1000;
     // $(score_span).text(newScore.toFixed(1));
