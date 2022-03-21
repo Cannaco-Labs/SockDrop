@@ -21,7 +21,7 @@ document.addEventListener('keydown', function(e) {
   // get the value of the required key from the konami code
   var requiredKey = konamiCode[konamiCodePosition];
 
-  document.removeEventListener('keydown', function(e) {
+  document.removeEventListener('keydown');
   // compare the key with the required key
   if (key == requiredKey) {
 
