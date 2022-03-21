@@ -24,6 +24,19 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-animation: shake 0.5s linear infinite;
+    -moz-animation: shake 0.5s linear infinite;
+    -ms-animation: shake 0.5s linear infinite;
+    -o-animation: shake 0.5s linear infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0, 0) rotate(-45deg);
+    }
+    100% {
+        transform: translate(0, 0) rotate(45deg);
+    }
 }
 
 #homerchu img {

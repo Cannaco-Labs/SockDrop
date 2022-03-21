@@ -54,6 +54,6 @@ var allowedKeys = {
     $('#cannami_image').addClass("active");  
     setTimeout(function () {
       $('#cannami_image').removeClass("active");
-    }, 8000);
+    }, 2000);
     alert("cheats activated");
   }
