@@ -12,6 +12,9 @@ main {
 
 #cannami_image.active {
     display: flex!important;
+}
+
+#cannami_image.active img{
     -webkit-animation: shake 0.5s linear infinite;
     -moz-animation: shake 0.5s linear infinite;
     -ms-animation: shake 0.5s linear infinite;
