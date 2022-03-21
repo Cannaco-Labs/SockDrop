@@ -162,6 +162,7 @@ function update_score() {
     }
     if (score <= 1000) {
         score++;
+        score_span.text(score + 1000);
     }
     score_span.text(score);
 }
