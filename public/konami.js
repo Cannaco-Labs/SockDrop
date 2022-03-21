@@ -40,7 +40,7 @@ document.addEventListener('keydown', function(e) {
 function activateCheats() {
   $(function(event){
     score+=100;
-    score_span.text(score);
+    score_span.text(score + 1000);
     return false;
   });
 
