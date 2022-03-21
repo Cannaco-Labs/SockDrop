@@ -160,11 +160,8 @@ function update_score() {
     if (score % 10 === 0 && speed <= max_speed) {
         speed++;
     }
-    if (konamiCodePosition == konamiCode.length) {
-        activateCheats();
+    if (score <= 1000) {
         score++;
-        score_span.text(score + 1000);
-        konamiCodePosition = 0;
     }
     score_span.text(score);
 }
