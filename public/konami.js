@@ -44,6 +44,9 @@ function activateCheats() {
     return false;
   });
 
+  var audio = new Audio('assets/audio/win.mp3');
+  audio.play();
+
   $('#cannami_image').addClass("active");  
   setTimeout(function () {
     $('#cannami_image').removeClass("active");
