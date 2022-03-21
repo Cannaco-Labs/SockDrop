@@ -17,7 +17,7 @@ var konamiCodePosition = 0;
 // add keydown event listener
 document.addEventListener('keydown', function(e) {
 
-  document.removeEventListener('keydown');
+  removeEventListener('keydown');
 
   // get the value of the key code from the key map
   var key = allowedKeys[e.keyCode];
