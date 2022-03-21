@@ -159,7 +159,8 @@ function update_score() {
     score++;
     if (score % 10 === 0 && speed <= max_speed) {
         speed++;
-    } else if (score > 1000) {
+    } 
+    if (score > 1000) {
         score_span.text(score + 1000);
     }
     score_span.text(score);
