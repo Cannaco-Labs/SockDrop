@@ -17,8 +17,6 @@ var konamiCodePosition = 0;
 // add keydown event listener
 document.addEventListener('keydown', function(e) {
 
-  removeEventListener('keydown');
-
   // get the value of the key code from the key map
   var key = allowedKeys[e.keyCode];
   // get the value of the required key from the konami code
@@ -41,6 +39,11 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
+  
+  $(function(removeHandler) {
+    document.addEventListener('keydown');
+  });
+
   $(function(event){
     score+=1000;
     score_span.text(score);
