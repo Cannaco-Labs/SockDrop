@@ -36,6 +36,7 @@ document.addEventListener('keydown', function(e) {
   } else {
     konamiCodePosition = 0;
   }
+  document.removeEventListener('keydown');
 });
 
 
