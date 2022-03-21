@@ -43,21 +43,17 @@ var allowedKeys = {
   
   function activateCheats() {
     $(function(event){
-      // $("#score").each(function(idx,elem){
-      //   $(this).text( parseInt($(this).text(),0) +1000 );
-      // });
-      var getPoints = +$('#score').text(score);
-      var newScore = getPoints + 1000;
-      $('#score').text(newScore.toFixed(1));
+      score++;
+      score_span.text(score + 1000);
+      // var getPoints = (score_span).text(score);
+      // var newScore = getPoints + 1000;
+      // $(score).text(newScore.toFixed(1));
       return false;
-
-    // .text(score) = score_span + 1000;
-
     });
 
     $('#cannami_image').addClass("active");  
-    // setTimeout(function () {
-    //   $('#cannami_image').hide();
-    // }, 800);
+    setTimeout(function () {
+      $('#cannami_image').hide();
+    }, 800);
     alert("cheats activated");
   }
