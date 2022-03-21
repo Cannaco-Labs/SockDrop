@@ -156,14 +156,17 @@ function increment_high() {
 }
 
 function update_score() {
-    score++;
     if (score % 10 === 0 && speed <= max_speed) {
         speed++;
     } 
     if (score > 1000) {
+        score++;
         score_span.text(score + 1000);
+        score_span.text(score);
+    } else if (score < 1000){
+        score++
+        score_span.text(score);
     }
-    score_span.text(score);
 }
 
 function update_pickle_score() {
