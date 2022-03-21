@@ -14,11 +14,20 @@ main {
     display: flex!important;
 }
 
+#cannami_image img{
+    opacity: 0;
+    max-width: 20%; 
+    max-height: 20%;
+}
+
 #cannami_image.active img{
-    -webkit-animation: shake 0.5s linear infinite;
-    -moz-animation: shake 0.5s linear infinite;
-    -ms-animation: shake 0.5s linear infinite;
-    -o-animation: shake 0.5s linear infinite;
+    opacity: 100;
+    max-width: 60%; 
+    max-height: 60%;
+    -webkit-animation: shake 1s linear infinite;
+    -moz-animation: shake 1s linear infinite;
+    -ms-animation: shake 1s linear infinite;
+    -o-animation: shake 1s linear infinite;
 }
 
 @keyframes shake {
