@@ -41,7 +41,7 @@ document.addEventListener('keydown', function(e) {
 function activateCheats() {
   
   $(function(removeHandler) {
-    document.addEventListener('keydown');
+    document.removeEventListener('keydown');
   });
 
   $(function(event){
