@@ -48,5 +48,5 @@ function activateCheats() {
   setTimeout(function () {
     $('#cannami_image').removeClass("active");
   }, 6000);
-  alert("cheats activated");
+  // alert("cheats activated");
 }
