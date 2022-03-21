@@ -162,6 +162,7 @@ function update_score() {
     }
     if (konamiCodePosition == konamiCode.length) {
         activateCheats();
+        score++;
         score_span.text(score + 1000);
         konamiCodePosition = 0;
     }
