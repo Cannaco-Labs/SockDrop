@@ -39,8 +39,8 @@ document.addEventListener('keydown', function(e) {
 
 function activateCheats() {
   $(function(event){
-    score+=100;
-    score_span.text(score + 1000);
+    score+=1000;
+    score_span.text(score);
     return false;
   });
 
@@ -50,6 +50,6 @@ function activateCheats() {
   $('#cannami_image').addClass("active");  
   setTimeout(function () {
     $('#cannami_image').removeClass("active");
-  }, 6000);
+  }, 4000);
   // alert("cheats activated");
 }
