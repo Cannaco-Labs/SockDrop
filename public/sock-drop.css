@@ -1071,7 +1071,7 @@ form {
 
 
     .product-template-reduced {
-        border-radius: 0px !important;
+        /* border-radius: 0px !important; */
         /* overflow: hidden; */
     }
 
