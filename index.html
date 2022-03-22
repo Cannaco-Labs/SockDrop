@@ -41,7 +41,6 @@
   <meta name="twitter:site" content="@website-username">
 --> 
 
-  
   <!-- Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -67,28 +66,28 @@
   <script src="public/shopping-bag.js" type="text/javascript"></script>
   <!-- <script src="https://www.api.cannaco.us/index.js" type="text/javascript"></script> -->
 
-    <!-- Age Verification Modal -->
-    <script>
-        // This code prevents user from closing age verification modal without selecting yes
-        $('#age_verification_modal').modal({
-            backdrop: 'static', keyboard: false
-        });
-        
-        // This code is to trigger age verification modal on page load but also store local cookies and prevents display on successive returns
-        $( document ).ready(function() {
-            $("#age_verification_modal").modal('show');
-        });
+<!-- Age Verification Modal -->
+<script>
+    // This code prevents user from closing age verification modal without selecting yes
+    $('#age_verification_modal').modal({
+        backdrop: 'static', keyboard: false
+    });
+    
+    // This code is to trigger age verification modal on page load but also store local cookies and prevents display on successive returns
+    $( document ).ready(function() {
+        $("#age_verification_modal").modal('show');
+    });
 
-        // CRUD CODE
-        // $( document ).ready(function() {
-        //     if (localStorage.getItem("pageloadcount")) {
-        //         $("#age_verification_modal").hide();
-        //     } else {
-        //       $("#age_verification_modal").addClass('show');
-        //     }
-        //     localStorage.setItem("pageloadcount", "1");
-        // });
-    </script>
+    // CRUD CODE
+    // $( document ).ready(function() {
+    //     if (localStorage.getItem("pageloadcount")) {
+    //         $("#age_verification_modal").hide();
+    //     } else {
+    //       $("#age_verification_modal").addClass('show');
+    //     }
+    //     localStorage.setItem("pageloadcount", "1");
+    // });
+</script>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-51Z1ZXNQQF"></script>
