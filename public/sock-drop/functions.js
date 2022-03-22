@@ -142,7 +142,7 @@ function check_leaf_hits_basket(leaf) {
         increment_high();
         leaf_top = parseInt(leaf.css('top'));
         if (leaf_top < basket_top) {
-            var audio = new Audio('assets/audio/high.mp3');
+            var audio = new Audio('assets/audio/error.mp3');
             audio.play();
             // update_score();
             return true;
