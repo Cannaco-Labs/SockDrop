@@ -1076,8 +1076,12 @@ form {
     }
 
     #restart_modal {
-        border-radius: 0px!important;
+        /* border-radius: 0px!important; */
         overflow: hidden;
+    }
+
+    #restart_modal .product-card {
+        border-radius: 0px!important;
     }
 
     #demo {
