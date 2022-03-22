@@ -21,6 +21,8 @@ function sock_down(sock) {
 function check_sock_hits_floor(sock) {
     if (collision(sock, floor)) {
         show_bulls_eye(sock);
+        var audio = new Audio('assets/audio/win.mp3');
+        audio.play();
         // increment_high();
         return true;
     }
@@ -47,6 +49,8 @@ function check_sock_hits_basket(sock) {
     if (collision(sock, basket)) {
         sock_top = parseInt(sock.css('top'));
         if (sock_top < basket_top) {
+            var audio = new Audio('assets/audio/quick-win.mp3');
+            audio.play();
             update_score();
             return true;
         }
@@ -92,6 +96,8 @@ function check_pickle_hits_basket(pickle) {
     if (collision(pickle, basket)) {
         pickle_top = parseInt(pickle.css('top'));
         if (pickle_top < basket_top) {
+            var audio = new Audio('assets/audio/quick-win.mp3');
+            audio.play();
             update_pickle_score();
             return true;
         }
@@ -138,6 +144,8 @@ function check_leaf_hits_basket(leaf) {
         increment_high();
         leaf_top = parseInt(leaf.css('top'));
         if (leaf_top < basket_top) {
+            var audio = new Audio('assets/audio/quick-win.mp3');
+            audio.play();
             // update_score();
             return true;
         }
@@ -159,19 +167,10 @@ function update_score() {
     if (score % 10 === 0 && speed <= max_speed) {
         speed++;
     } 
-    // if (score > 1000) {
-    //     score++;
-    //     score_span.text(score + 1000);
-    // } else if (score < 1000){
-    //     score++
-    //     score_span.text(score);
-    //     // score_span.text(score + 1000);
-    // }
     if (score < 1000) {
         score++;
         score_span.text(score);
     } else {
-        // score+=1000;
         score++;
         score_span.text(score);
     }
@@ -183,6 +182,8 @@ function update_pickle_score() {
 }
 
 function stop_the_game() {
+    var audio = new Audio('assets/audio/game-over.mp3');
+    audio.play();
     cancelAnimationFrame(anim_id);
     restart.slideDown();
 }
