@@ -21,8 +21,6 @@ function sock_down(sock) {
 function check_sock_hits_floor(sock) {
     if (collision(sock, floor)) {
         show_bulls_eye(sock);
-        var audio = new Audio('assets/audio/win.mp3');
-        audio.play();
         // increment_high();
         return true;
     }
