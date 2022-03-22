@@ -1075,6 +1075,11 @@ form {
         /* overflow: hidden; */
     }
 
+    #restart_modal {
+        border-radius: 0px!important;
+        overflow: hidden;
+    }
+
     #demo {
         font-size: 160%!important;
         margin-top: 24px!important;
