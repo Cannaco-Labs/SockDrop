@@ -85,10 +85,10 @@ $(function () {
             stop_the_game();
             $('#restart_modal').toggleClass("show");
             var firstDivContent = document.getElementById('score');
-            var secondDivContent = document.getElementById('drip-socks');
+            var secondDivContent = document.getElementById('input_6');
             secondDivContent.value = firstDivContent.textContent;
             var thirdDivContent = document.getElementById('pickle_score');
-            var fourthDivContent = document.getElementById('drip-pickles');
+            var fourthDivContent = document.getElementById('q5_pickles');
             fourthDivContent.value = thirdDivContent.textContent;
         }
     };
