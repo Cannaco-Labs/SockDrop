@@ -118,7 +118,7 @@
     <!-- <main style="display: flex; align-items: center; justify-content: center;"> -->
     <main>
 
-        <div id="intro" class="card" style="background: #FED202;" style="max-width: 560px; padding: 40px 24px;">
+        <div id="intro" class="card" style="background: #FED202;" style="max-width: 560px; padding: 40px 24px 24px 24px;">
           <div class="row">
             <div class="col col-1">
               <img src="assets/sock-drop/welcome-compact.png">
@@ -128,18 +128,29 @@
 
             <blockquote class="blockquote" style="text-align: left; margin-bottom: 0px; width: 100%;">
                 <ul class="list-unstyled">
-                    <li class="social-share instagram">
-                        <a href="https://www.instagram.com/cannaco.usa/" target="_blank" style="text-decoration: none;">
-                            <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
-                                Follow on Instagram <i class="fab fa-instagram" style="margin-left: 8px;"></i>
-                            </button>
-                        </a>
-                    </li>
-                    <li class="social-share facebook" style="margin-top: 16px;">
-                        <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
-                            Share on Facebook <i class="fab fa-facebook-f" style="margin-left: 8px;"></i>
-                        </button>
-                    </li>
+                    <ul class="list-unstyled">
+                        <li class="social-share instagram" style="margin-bottom: 16px;">
+                            <a href="https://www.instagram.com/cannaco.world/" target="_blank" style="text-decoration: none;">
+                                <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
+                                    Follow on Instagram <i class="fab fa-instagram" style="margin-left: 8px;"></i>
+                                </button>
+                            </a>
+                        </li>
+                        <li class="social-share facebook" style="margin-bottom: 16px;">
+                            <a href="https://www.facebook.com/cannaco.usa" target="_blank" style="text-decoration: none;">
+                                <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
+                                    Follow on Facebook <i class="fab fa-facebook-f" style="margin-left: 8px;"></i>
+                                </button>
+                            </a>
+                        </li>
+                        <li class="social-share facebook" style="margin-bottom: 16px;">
+                            <a href="https://www.linkedin.com/company/cannaco-labs/" target="_blank" style="text-decoration: none;">
+                                <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
+                                    Follow on Linkedin <i class="fab fa-linkedin" style="margin-left: 8px;"></i>
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
                     <li>
                         <a href="sock-drop-game.html" style="text-decoration: none;">
                             <button id="start" class="btn btn-tertiary btn-block" style="margin-top: 24px; border-radius: 8px;">Restart Game</button>
@@ -151,26 +162,6 @@
                         </a>
                     </li>
                 </ul>
-                <script>
-                    setShareLinks();
-
-                    function socialWindow(url) {
-                    var left = (screen.width - 570) / 2;
-                    var top = (screen.height - 570) / 2;
-                    var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
-                    window.open(url,"NewWindow",params);
-                    }
-
-                    function setShareLinks() {
-                    var pageUrl = encodeURIComponent(document.URL);
-                    var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
-
-                    $(".social-share.facebook").on("click", function() {
-                        url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
-                        socialWindow(url);
-                    });
-                    }
-                </script>
             </blockquote>
 
 
