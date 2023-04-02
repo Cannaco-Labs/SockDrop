@@ -88,7 +88,7 @@ $(function () {
             var secondDivContent = document.getElementById('input_6');
             secondDivContent.value = firstDivContent.textContent;
             var thirdDivContent = document.getElementById('pickle_score');
-            var fourthDivContent = document.getElementById('q5_pickles');
+            var fourthDivContent = document.getElementById('input_5');
             fourthDivContent.value = thirdDivContent.textContent;
         }
     };
