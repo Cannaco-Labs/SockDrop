@@ -358,6 +358,21 @@
                     <div id="cid_2" class="form-input-wide" data-layout="full" style="background: #ffd200; border-radius: 6px!important; overflow: hidden; margin-top: 16px!important;">
                         <button id="input_2" type="submit" class="btn btn-secondary btn-block jsTest-submitField" data-component="button" data-content="" style="color: black!important; border-radius: 6px!important; line-height: 12px!important;">Submit</button>
                     </div> 
+                    <style>
+                      .form-readonly:hover {
+                          border: 0px solid rgba(255, 255, 255, 0) !important;
+                      }
+                      /* Change the white to any color */
+                      input:-webkit-autofill,
+                      input:-webkit-autofill:hover, 
+                      input:-webkit-autofill:focus, 
+                      input:-webkit-autofill:active{
+                        background-color: #1C472D!important;
+                      }
+                      form-control {
+                        background-color: #1C472D!important;
+                      }
+                    </style>
                 </form>   
                 <blockquote style="padding: 16px 24px 24px 24px; width: 100%;">
                   <button id="restart" class="btn btn-outline btn-block" style="border-radius: 6px!important;">Retry</button>
