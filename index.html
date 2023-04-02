@@ -160,40 +160,28 @@
 
             <blockquote class="blockquote" style="text-align: left; margin-bottom: 0px; width: 100%;">
                 <ul class="list-unstyled">
-                    <li class="social-share instagram">
+                    <li class="social-share instagram" style="margin-bottom: 16px;">
                         <a href="https://www.instagram.com/cannaco.world/" target="_blank" style="text-decoration: none;">
                             <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
                                 Follow on Instagram <i class="fab fa-instagram" style="margin-left: 8px;"></i>
                             </button>
                         </a>
                     </li>
-                    <li class="social-share facebook" style="margin-top: 16px;">
-                        <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
-                            Share on Facebook <i class="fab fa-facebook-f" style="margin-left: 8px;"></i>
-                        </button>
+                    <li class="social-share facebook" style="margin-bottom: 16px;">
+                        <a href="https://www.facebook.com/cannaco.usa" target="_blank" style="text-decoration: none;">
+                            <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
+                                Follow on Facebook <i class="fab fa-facebook-f" style="margin-left: 8px;"></i>
+                            </button>
+                        </a>
+                    </li>
+                    <li class="social-share facebook" style="margin-bottom: 16px;">
+                        <a href="https://www.linkedin.com/company/cannaco-labs/" target="_blank" style="text-decoration: none;">
+                            <button class="btn btn-block" style="display: flex; justify-content: center; align-items: center; color: #145a3c; border-radius: 24px; border: 1px solid #145a3c; background: rgba(255,255,255,0.6)">
+                                Follow on Linkedin <i class="fab fa-facebook-f" style="margin-left: 8px;"></i>
+                            </button>
+                        </a>
                     </li>
                 </ul>
-                <script>
-                    setShareLinks();
-
-                    function socialWindow(url) {
-                    var left = (screen.width - 570) / 2;
-                    var top = (screen.height - 570) / 2;
-                    var params = "menubar=no,toolbar=no,status=no,width=570,height=570,top=" + top + ",left=" + left;
-                    window.open(url,"NewWindow",params);
-                    }
-
-                    function setShareLinks() {
-                    var pageUrl = encodeURIComponent(document.URL);
-                    var tweet = encodeURIComponent($("meta[property='og:description']").attr("content"));
-
-                    $(".social-share.facebook").on("click", function() {
-                        url = "https://www.facebook.com/sharer.php?u=" + pageUrl;
-                        socialWindow(url);
-                    });
-                    }
-                </script>
-                <!-- <h1 class="title" style="color:#003214; text-align: center; width: 100%; margin: 0 auto; margin-top: 24px;">Game Available In:</h1> -->
                 <a href="sock-drop-game.html" style="text-decoration: none;">
                     <button id="start" class="btn btn-tertiary btn-block" style="margin-top: 24px; border-radius: 8px;">PLAY NOW</button>
                 </a>
@@ -247,7 +235,7 @@
                 <!-- <div class="body-medium color-background">We use cookies <span class="btn-link body" aria-pressed="true" data-toggle="modal" data-target="#privacy_policy_modal" style="color:#145a3c!important;">Learn More 🍪</span></div> -->
                 <nav class="align-items-center justify-content-between">
                     <ul class="list list-unstyled left">
-                      <li><p class="body opacity" style="color: black; text-decoration: none;">Copyright © 2023 Cannaco Labs LLC. <br> All Rights Reserved.</p></li>
+                      <li><p class="body opacity" style="color: black; text-decoration: none;">Copyright © 2022 Cannaco Labs LLC. <br> All Rights Reserved.</p></li>
                     </ul>
                     <ul class="list list-unstyled list-inline right" style="margin-top: 12px;">
                       <li class="list-inline-item"><a class="body opacity one" style="color: black; cursor: pointer;" data-toggle="modal" data-target="#privacy_policy_modal">Privacy Policy</a></li>
