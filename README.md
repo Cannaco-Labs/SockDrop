@@ -1,2 +1,2 @@
 # SockDrop
-The Dopest Game on the Motha Fuckin Planet
+Help Canny Catch The Socks
