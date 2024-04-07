@@ -236,7 +236,7 @@ console.log( "ready!" );
     $('.carousel-container').slick({
         speed: 600,
         arrows: false,
-        slidesToShow: 4,
+        slidesToShow: 6,
         // slidesToScroll: 1,
         infinite: true,
         dots: false,
