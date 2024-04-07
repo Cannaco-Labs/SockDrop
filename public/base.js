@@ -250,7 +250,7 @@ console.log( "ready!" );
         // variableWidth: true,
         autoplay: true,
         autoplaySpeed: 0,
-        // centerMode: true,
+        centerMode: true,
         speed: 10000,
         cssEase: 'linear',
         slidesToShow: 6,
