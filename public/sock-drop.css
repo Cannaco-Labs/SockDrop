@@ -1097,8 +1097,8 @@ form {
     }
 
     #demo {
-        font-size: 160%!important;
-        margin-top: 24px!important;
+        font-size: 100%!important;
+        margin-top: 0px!important;
     }
 
     #score_holder {
