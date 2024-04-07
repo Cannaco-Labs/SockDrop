@@ -277,7 +277,7 @@ console.log( "ready!" );
             {
                 breakpoint: 640,
                 settings: {
-                  slidesToShow: 2,
+                  slidesToShow: 1.5,
                   slidesToScroll: 1,
                 //   centerMode: true,
                 //   centerPadding: '24px',
