@@ -1065,6 +1065,10 @@ form {
     #products .card .card-body img {
         max-height: 360px;
     }
+
+    #intro .row img {
+        max-width: 360px;
+    }
 }
 
 
