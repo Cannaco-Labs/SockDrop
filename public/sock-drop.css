@@ -1061,6 +1061,10 @@ form {
     #intro blockquote .subtitle{
         font-size: 16px!important;
     }
+
+    #products .card .card-body img {
+        max-height: 360px;
+    }
 }
 
 
