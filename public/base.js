@@ -250,7 +250,7 @@ console.log( "ready!" );
         // variableWidth: true,
         autoplay: true,
         autoplaySpeed: 0,
-        centerMode: true,
+        // centerMode: true,
         speed: 10000,
         cssEase: 'linear',
         slidesToShow: 6,
@@ -259,7 +259,7 @@ console.log( "ready!" );
             {
                 breakpoint: 1279,
                 settings: {
-                    centerMode: true,
+                    // centerMode: true,
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     arrows: true,
@@ -268,8 +268,7 @@ console.log( "ready!" );
             {
                 breakpoint: 823,
                 settings: {
-                    centerMode: true,
-
+                    // centerMode: true,
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
@@ -278,9 +277,9 @@ console.log( "ready!" );
             {
                 breakpoint: 640,
                 settings: {
-                  slidesToShow: 3,
+                  slidesToShow: 2,
                   slidesToScroll: 1,
-                  centerMode: true,
+                //   centerMode: true,
                 //   centerPadding: '24px',
                 //   focusOnSelect: true,
                   arrows: false,
