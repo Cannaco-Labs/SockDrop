@@ -711,8 +711,8 @@ form {
 }
 
 #intro {
-    padding: 0px 24px 24px 24px;
-    max-width: 560px;
+    /* padding: 0px 24px 24px 24px; */
+    max-width: 100%;
 }
 
 #intro blockquote {

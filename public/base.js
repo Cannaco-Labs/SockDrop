@@ -1,27 +1,27 @@
 $(document).ready(function () {
 console.log( "ready!" );
 
-//     $('#age_verification_modal').modal({
-//         backdrop: 'static', keyboard: false
-//     });
+    $('#age_verification_modal').modal({
+        backdrop: 'static', keyboard: false
+    });
     
-//     $(function(){
-//         $('#cookie_close_button').click(function(){
-// //                $('#cookie_toast').addClass("remove");
-//             $("#cookie_toast").hide();
-//         });
-//     }); 
+    $(function(){
+        $('#cookie_close_button').click(function(){
+//                $('#cookie_toast').addClass("remove");
+            $("#cookie_toast").hide();
+        });
+    }); 
     
-//     $( document ).ready(function() {
-//         if (localStorage.getItem("pageloadcount")) {
-//             $("#cookie_toast").hide();
-//             $("#age_verification_modal").hide();
-//         } else {
-//             $("#cookie_toast").addClass('show');
-//             $("#age_verification_modal").modal('show');
-//         }
-//         localStorage.setItem("pageloadcount", "1");
-//     });
+    $( document ).ready(function() {
+        if (localStorage.getItem("pageloadcount")) {
+            $("#cookie_toast").hide();
+            $("#age_verification_modal").hide();
+        } else {
+            $("#cookie_toast").addClass('show');
+            $("#age_verification_modal").modal('show');
+        }
+        localStorage.setItem("pageloadcount", "1");
+    });
 
 
     function hasTouch() {
@@ -48,22 +48,6 @@ console.log( "ready!" );
         } catch (ex) {}
     }
     
-
-    $(".favorite-strain-icon").click(function(){
-        $(this).find('i').toggleClass("active");
-        if ($(this).find('i').hasClass("active")) {
-            $(".alert-favorite").show();
-            setTimeout(function() {
-                $('.alert-favorite').hide();
-            }, 4000);
-        }
-        else {
-            $(".remove-favorite").show();
-            setTimeout(function() {
-                $('.remove-favorite').hide();
-            }, 4000);
-        }
-    });
     
     
     $('.modal').on('show.bs.modal', function (e) {
@@ -73,96 +57,6 @@ console.log( "ready!" );
         }
     });
     
-    
-//    // SUBMIT FORM ON ENTER WRECKS BOOTSTRAP
-//    $('.form-control').keypress(function() {
-//        // the enter key code
-//        var key = e.which;
-//        if (key == 13) {
-//            valid = false;
-//            event.preventDefault();
-//        }
-//    });
-    
-    
-//    $(function showPassword() {
-//        var x = document.getElementById("inputPassword");
-//        if (x.type === "password") {
-//            x.type = "text";
-//        } else {
-//            x.type = "password";
-//        }
-//    });
-
-
-
-    // This code handles all of the search filtering
-    var input = document.getElementById("strain-search");
-    input.addEventListener("input", strainSort);
-
-    function strainSort(e) {
-        $("#products").removeClass("remove");
-        $("#grow-your-business").removeClass("remove");
-        $(".join-list").removeClass("remove");
-        $("footer").removeClass("remove");
-        var filter = e.target.value.toUpperCase();
-        var list = document.getElementById("strains");
-        var strain = document.getElementsByClassName("product-container");
-        for (var i = 0; i < strain.length; i++) {
-        var a = strain[i].getElementsByTagName("h1")[0];
-            if (a) {
-                if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
-                    $(strain[i]).show();
-                    $("#strain-request").removeClass("active");
-                    $("#hero-title").text("Strains");
-                    $("#hero").removeClass("active");
-                    } else {
-                        $("#products").addClass("remove");
-//                        $("#hero").addClass("active");
-                        $("#grow-your-business").addClass("remove");
-                        $(".join-list").addClass("remove");
-                        $("footer").addClass("remove");
-                        $(strain[i]).hide();
-                        if (!$('.product-container:visible').length) {
-                            $("#hero").addClass("active");
-                            $("#hero-title").text("Unable to find strain, what strain are you looking for?");
-                            $("#strain-request").addClass("active");
-                    }                
-                }
-            }
-        }
-    }
-    
-    // This code handles all of the search typing and controls
-    var input = document.getElementById("strain-search");
-    input.addEventListener("input", textCheck);
-
-    function textCheck() {
-        if ($('#strain-search').val().length > 0) {
-            $("#close-search").addClass('active');
-        } else {
-            $("#close-search").removeClass('active');
-        }
-    }
-       
-    // This code removes all of the search filtering, typing and controls!
-    $("#close-search").click(function(){
-        $("#close-search").removeClass("active");
-        document.getElementById("strain-search").value = "";
-//        $("#hero").removeClass("active");
-        $("#hero-title").text("Strains");
-        $("#strain-request").removeClass("active");
-        $(".product-container").show();
-        $("#hero").removeClass("active");
-        $("#products").removeClass("remove");
-        $("#grow-your-business").removeClass("remove");
-        $(".join-list").removeClass("remove");
-        $("footer").removeClass("remove");
-    });
-    
-
-
-
 
     
     $(function() {
@@ -339,19 +233,27 @@ console.log( "ready!" );
     });
     
     
-
     $('.carousel-container').slick({
         speed: 600,
-        arrows: true,
+        arrows: false,
         slidesToShow: 4,
-        slidesToScroll: 1,
+        // slidesToScroll: 1,
         infinite: true,
         dots: false,
         fade: false,
-        speed: 300,
+        // speed: 300,
         useCSS: true,
         variableWidth: false,
         vertical: false,
+        autoplay: true,
+        // autoplaySpeed: 2000,
+        // variableWidth: true,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 10000,
+        cssEase: 'linear',
+        slidesToShow: 6,
+        slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 1279,
@@ -366,7 +268,7 @@ console.log( "ready!" );
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
-//                    infinite: true,
+                    infinite: true,
                 }
             },
             {

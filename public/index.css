@@ -32,7 +32,7 @@ body main .modal .product-description a {
 }
 html main #products,
 body main #products {
-  padding: 0px 12px 12px 12px;
+  padding: 12px 12px 12px 12px;
   display: block;
 }
 html main #mc_embed_signup,
