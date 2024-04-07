@@ -180,8 +180,8 @@ body main .container .col {
   }
   html .container .carousel-container,
   body .container .carousel-container {
-    margin-left: -8px;
-    margin-right: -8px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   html .container .carousel-container .col,
   body .container .carousel-container .col {
