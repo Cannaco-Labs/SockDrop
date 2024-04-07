@@ -1062,13 +1062,13 @@ form {
         font-size: 16px!important;
     }
 
-    /* #products .card .card-body img {
+    #welcome-image {
         max-height: 360px;
     }
 
-    #intro .row img {
-        max-width: 360px;
-    } */
+    #welcome-text {
+        font-size: 32px;
+    }
 }
 
 
