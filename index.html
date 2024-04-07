@@ -152,6 +152,17 @@
     <audio id="player" style="position: absolute; bottom: 40px; left: 40px; padding: 0px; z-index: 1000;" autoplay loop>
       <source src="assets/audio/jammin.mp3" type="audio/mpeg" loop="loop">
     </audio>
+
+    <script>
+        var audio;
+        $("#verify_age_button").on("click", function(e){
+            if(!audio){
+                audio = new Audio('assets/audio/jammin.mp3');;
+            }
+        });
+    </script>
+
+
   <!-- Main -->
     <!-- <main style="display: flex; align-items: center; justify-content: center;"> -->
     <main>
