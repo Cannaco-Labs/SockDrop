@@ -84,13 +84,18 @@
     
     // This code is to trigger age verification modal on page load but also store local cookies and prevents display on successive returns
     $( document ).ready(function() {
-          if (localStorage.getItem("pageloadcount")) {
-              $("#game_rules_modal").hide();
-          } else {
-            $("#game_rules_modal").addClass('show');
-          }
-          localStorage.setItem("pageloadcount", "1");
-      });
+        $("#game_rules_modal").modal('show');
+    });
+    
+    // This code is to trigger age verification modal on page load but also store local cookies and prevents display on successive returns
+    // $( document ).ready(function() {
+    //       if (localStorage.getItem("pageloadcount")) {
+    //           $("#game_rules_modal").hide();
+    //       } else {
+    //         $("#game_rules_modal").addClass('show');
+    //       }
+    //       localStorage.setItem("pageloadcount", "1");
+    //   });
   </script>
 
 
@@ -132,11 +137,11 @@
               </div>
               <div class="col col-1" style="display: block; padding: 16px 16px 16px 16px;">
                 <blockquote class="blockquote" style="text-align: left; margin-bottom: 0px;">
-                  <h1 class="subhead" style="color: #003214;">These are the Rules</h1>
-                  <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Use mouse on desktop.</h1>
-                  <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Use finger on mobile.</h1>
-                  <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Collect the socks.</h1>
-                  <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Avoid the pot leaves.</h1>
+                  <h1 class="subhead" style="color: #003214;">Rules</h1>
+                  <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Use mouse on desktop</h1>
+                  <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Use finger on mobile</h1>
+                  <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Collect the socks</h1>
+                  <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Avoid the pot leaves</h1>
                   <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Top 10 scores win prizes!</h1>
                   <!-- <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• CANNAMI CODE: A←→↑↓↑↓←→B</h1>
                   <h1 class="subtitle" style="color:#145a3c; margin-top: 16px;">• Catch the Golden Nugg!</h1> -->
