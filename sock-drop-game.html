@@ -88,10 +88,12 @@
     // });
     
     // This code is to trigger game rules modal on page load but also store local cookies and prevents display on subsequent returns
-      if ($.cookie('pop') == null) {
-          $('#game_rules_modal').modal('show');
-          $.cookie('pop', '1');
-      }
+    $(document).ready(function() {
+        if ($.cookie('pop') == null) {
+            $('#game_rules_modal').modal('show');
+            $.cookie('pop', '1');
+        }
+    });
     // $( document ).ready(function() {
     //       if (localStorage.getItem("pageloadcount")) {
     //           $("#game_rules_modal").hide();
