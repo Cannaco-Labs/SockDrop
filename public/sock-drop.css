@@ -1069,6 +1069,10 @@ form {
     #welcome-text {
         font-size: 32px!important;
     }
+
+    .product-template-reduced {
+        border-radius: 0px!important;
+    }
 }
 
 
