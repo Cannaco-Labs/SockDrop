@@ -82,12 +82,21 @@
         backdrop: 'static', keyboard: false
     });
     
-    // This code is to trigger age verification modal on page load but also store local cookies and prevents display on successive returns
-    $( document ).ready(function() {
-        $("#game_rules_modal").modal('show');
-    });
+    // This code is to trigger game rules modal every single session - not ideal
+    // $( document ).ready(function() {
+    //     $("#game_rules_modal").modal('show');
+    // });
     
-    // This code is to trigger age verification modal on page load but also store local cookies and prevents display on successive returns
+    // This code is to trigger game rules modal on page load but also store local cookies and prevents display on successive returns
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        if ($.cookie('pop') == null) {
+          $('#game_rules_modal').modal('show');
+          $.cookie('pop', '1');
+        }
+      });
+    </script>
     // $( document ).ready(function() {
     //       if (localStorage.getItem("pageloadcount")) {
     //           $("#game_rules_modal").hide();
