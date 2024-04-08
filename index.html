@@ -153,6 +153,15 @@
       <source src="assets/audio/jammin.mp3" type="audio/mpeg" loop="loop">
     </audio>
 
+    <script>
+        var audio;
+        $("#verify_age_button").on("click", function(e){
+            if(!audio){
+                audio = new Audio('assets/audio/jammin.mp3');;
+            }
+        }); 
+    </script>
+
     <!-- <script>
         var audio;
         $("#verify_age_button").on("click", function(e){
