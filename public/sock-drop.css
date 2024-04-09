@@ -373,7 +373,7 @@ main {
 
 #score {
     position: absolute;
-    left: 9%;
+    left: 8.5%;
     text-align: center;
     z-index: 100;
     font-weight: 800;
@@ -397,7 +397,7 @@ main {
 
 #pickle_score {
     position: absolute;
-    right: 8%;
+    right: 8.5%;
     text-align: center;
     z-index: 100;
     font-weight: 800;
