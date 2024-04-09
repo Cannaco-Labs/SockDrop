@@ -1118,6 +1118,7 @@ form {
     }
 
     #score {
+        left: 9%!important;
         margin-top: 21%;
         font-size: 120%;
     }
@@ -1270,9 +1271,5 @@ form {
 
     .subtitle-mobile {
         display: block;
-    }
-
-    #score {
-        left: 9%;
     }
 }
