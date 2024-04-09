@@ -1271,4 +1271,8 @@ form {
     .subtitle-mobile {
         display: block;
     }
+
+    #score {
+        left: 9%;
+    }
 }
