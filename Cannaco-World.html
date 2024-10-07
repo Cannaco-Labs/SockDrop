@@ -41,32 +41,6 @@
     <!-- Typography -->
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 
-    <script>
-        let index = 0;
-        let lakeInfo = [
-            {
-                fill: "#2E72C0",
-            },
-            {
-                fill: "#426DA9",
-            },
-            {
-                fill: "#7AB8F1",
-            },
-            {
-                fill: "#2DC9D7",
-            }
-        ];
-
-        setInterval(() => {
-        index = (index + 1)%(lakeInfo.length)
-        const newLakeProps = lakeInfo[index];
-        document.getElementById("lakeColor").setAttribute("fill", newLakeProps.fill)
-        
-        document.getElementById("lakeColor").setAttribute("r", newLakeProps.radius)
-        }, 1000)
-    </script>
-
     <style>
         body {
             display: flex;
@@ -153,7 +127,7 @@
         }
 
         #lakeColor {
-            transition: all 12s ease;
+            transition: all 8s ease;
         }
         
         #logo {
@@ -397,6 +371,35 @@
 
     document.querySelector('style[title="s1"]').innerHTML = `#lightShow
     {clip-path: polygon(${points});}`;
+</script>
+
+<script>
+    let index = 0;
+    let lakeInfo = [
+        {
+            fill: "#426DA9",
+        },
+        {
+            fill: "#2E72C0",
+        },
+        {
+            fill: "#2DC9D7",
+        },
+        {
+            fill: "#7AB8F1",
+        },
+        {
+            fill: "#2DC9D7",
+        }
+    ];
+
+    setInterval(() => {
+    index = (index + 1)%(lakeInfo.length)
+    const newLakeProps = lakeInfo[index];
+    document.getElementById("lakeColor").setAttribute("fill", newLakeProps.fill)
+    
+    document.getElementById("lakeColor").setAttribute("r", newLakeProps.radius)
+    }, 1000)
 </script>
 
 </html>
