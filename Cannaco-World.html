@@ -99,12 +99,45 @@
             }
         }
 
+        /* body {
+            animation-name: fadeInAnimation;
+            animation: fadeInAnimation ease 10s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        } */
+
         #logo_container {
             height: auto;
             width: 100%;
             display: flex;
             position: relative;
             padding-bottom: 12%;
+            animation-name: move;
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                margin-bottom: -4vw;
+                opacity: 0;
+            }
+
+            100% {
+                margin-bottom: 0vw;
+                opacity: 1;
+            }
         }
 
         #lightShow {
